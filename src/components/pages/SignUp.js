@@ -1,6 +1,11 @@
-import React from 'react';
-import '../../App.css';
-
-export default function SignUp() {
-  return <h1 className='sign-up'>Kayıt Ol!</h1>;
+import React from 'react'
+import LoginCont from '../LoginCont.js'
+function SignUp() {
+  return (
+    <div>
+      <LoginCont/>
+    </div>
+  )
 }
+
+export default SignUp
